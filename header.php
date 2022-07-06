@@ -3,25 +3,21 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>EduScort - Scottish educational tourism guide</title>
+    <title>GR1 - Gardening Services booking</title>
     <link rel="stylesheet" href="Style/style.css">
     <link rel="stylesheet" href="Material/css/bootstrap.css">
     <link rel="stylesheet" href="Material/css/bootstrap.min.css">
     <link rel="stylesheet" href="Material/css/mdb.css">
-    <link rel="stylesheet" href="Material/css/mdb.lite.min.css.map">
     <link rel="stylesheet" href="Material/css/mdb.min.css">
-    <link rel="stylesheet" href="Material/css/mdb.min.css.map">
     <link rel="stylesheet" href="Material/css/ripple.css">
     <link rel="stylesheet" href="Material/css/ripple.min.css">
-    <link rel="stylesheet" href="Material/js/bootstrap.js">
-    <link rel="stylesheet" href="Material/js/bootstrap.min.js">
-    <link rel="stylesheet" href="Material/js/bootstrap.min.js.map">
-    <link rel="stylesheet" href="Material/js/mdb.js">
-    <link rel="stylesheet" href="Material/js/mdb.lite.min.js.map">
-    <link rel="stylesheet" href="Material/js/mdb.min.js">
-    <link rel="stylesheet" href="Material/js/mdb.min.js.map">
-    <link rel="stylesheet" href="Material/js/ripple.js">
-    <link rel="stylesheet" href="Material/js/ripple.min.js">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="Material/js/bootstrap.js"></script>
+    <script src="Material/js/bootstrap.min.js"></script>
+    <script src="Material/js/mdb.js"></script>
+    <script src="Material/js/mdb.min.js"></script>
+    <script src="Material/js/ripple.js"></script>
+    <script src="Material/js/ripple.min.js"></script>
     <link rel="stylesheet" href="Style/fonts.css">
     <link rel="icon" type="image/x-icon" href="assets/images/faviconES2.png">
 
@@ -33,19 +29,27 @@
         
             <h6>Bringing you the perfect touch of nature</h6>
         </header>
-        <nav class="navbar navbar-expand-md" id="navbarSupportedContent">
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav mr-auto">
-                    <li><a href="university-of-aberdeen.php">Our values</a></li>
-                    <li><a href="university-of-dundee.php">Gardening tips</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Our vision</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Our mission</a></li>
-                    <li class="login"><a class="nav-link" href="login.php">Log in</a></li>
-                    <li class="signup"><a class="nav-link" href="signup.php">Sign up</a></li>
-                </ul>
-            </div> 
-        </nav>
-        <main></main>
+                <div class="navbar">
+                    <a href="our-values.php">Our values</a>
+                    <div class="dropdown">
+                        <button class="dropbutton">Catalogue of Services<i class="fa fa-caret-down"></i></button>
+                        <div class="dropdown-content">
+                            <a href="weeding1.html">Weeding1</a>
+                            <a href="weeding2.html">Weeding2</a>
+                            <a href="weeding3.html">Weeding3</a>
+                            <a href="weeding4.html">Weeding4</a>
+                            <a href="weeding5.html">Weeding5</a>
+                        </div>
+                    </div>
+                    <a href="gardening tips.php">Gardening tips</a>
+                    <a href="vision.php">Our vision</a>
+                    <a href="mission.php">Our mission</a>
+                    <a href="login.php">Log in</a>
+                    <a href="signup.php">Sign up</a>
+                </div> 
+    </div>
+
+    <main></main>
 
         
 
