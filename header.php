@@ -27,9 +27,9 @@
 </head>
 <body> 
     <div class="container">   
-        <header class="col-md-12">
+        <header style="background-color:#9c5300b4" class="col-md-12">
             <div class="topical">
-                <h1>GR1 Gardening Services</h1>
+                <h1 class="main">GR1 Gardening Services</h1>
         
                 <h6>Bringing you the perfect touch of nature</h6>
             </div>
@@ -45,7 +45,7 @@
                 </div>
         </header>
     </div>
-                <br>
+    <br>
  
 
         

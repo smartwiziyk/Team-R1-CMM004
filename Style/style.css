@@ -3,31 +3,29 @@
 
 
 
-/*Home Page - Experiment Styles*/
-#experimentImage{
-    margin: 6px 0 3px 0;
-    width: 100%;
-}
+/*Home Page*/
 
 /*Header Information */
-header {
-    background-color: #00b6a8;
-}
 
 header h1{
     font-weight: 700;
+    padding:10px;
     font-family: 'Righteous', cursive;
     margin-bottom: 0;
 }
 
-header h2{
-    margin-top: 0;
+h6{
+    padding: 0px 30px 10px 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size:smaller;
+    color: rgb(114, 73, 19);
 }
 /*End of Header*/ 
 
 /*Start of Footer*/
 footer{
-    background-color: #00b6a8;
+    background-color: #86c70f;
 }
 
 footer section h3{

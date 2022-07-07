@@ -26,7 +26,7 @@
 </head>
 <body>
     <div class="container">  
-            <footer class="col-md-12">
+            <footer style="background-color:#9c5300b4" class="col-md-12">
                 <div id="navbarSupportedContent" class="row">
                     <section class="col-md-4">
                         <h3><a href="aboutus.php">About Us</a></h3>
