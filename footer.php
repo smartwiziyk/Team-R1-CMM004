@@ -26,7 +26,8 @@
     <link rel="icon" type="image/x-icon" href="assets/images/faviconES2.png">
 
 </head>
-<body>     
+<body>
+    <div class="container">  
             <footer class="col-md-12">
                 <div id="navbarSupportedContent" class="row">
                     <section class="col-md-4">
@@ -43,5 +44,6 @@
                     </section>
                 </div>
             </footer>
+    </div>
 </body>
 </html>
