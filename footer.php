@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>EduScort - Scottish educational tourism guide</title>
+    <title>GR1 - Gardening Services booking</title>
     <link rel="stylesheet" href="Style/style.css">
     <link rel="stylesheet" href="Material/css/bootstrap.css">
     <link rel="stylesheet" href="Material/css/bootstrap.min.css">
@@ -23,8 +23,6 @@
     <link rel="stylesheet" href="Material/js/ripple.js">
     <link rel="stylesheet" href="Material/js/ripple.min.js">
     <link rel="stylesheet" href="Style/fonts.css">
-    <link rel="icon" type="image/x-icon" href="assets/images/faviconES2.png">
-
 </head>
 <body>
     <div class="container">  
