@@ -3,6 +3,7 @@ include_once 'header.php';
 ?>
 
 <body>
+    <!--Start of Container-->
     <div class="container">
         <h1 style="color:black">View our Catalogue of Gardening Services - Book us now!!!</h1> 
         <main class="col-md-12">
@@ -155,9 +156,10 @@ include_once 'header.php';
                         </div> 
                     </div>
                 </article>
-            </div><!--End of Experiment Container-->
+            </div>
         </main>
     </div>
+    <!--End of Container-->
 </body>
             <?php
 include_once 'footer.php';
