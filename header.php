@@ -40,8 +40,8 @@
                     <a href="#">Gardening tips</a>
                     <a href="#">Our vision</a>
                     <a href="#">Our mission</a>
-                    <a href="#">Log in</a>
-                    <a href="#">Sign up</a>
+                    <a href="login.php">Log in</a>
+                    <a href="signup.php">Sign up</a>
                 </div>
         </header>
     </div>
