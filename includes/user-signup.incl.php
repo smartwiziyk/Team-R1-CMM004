@@ -2,6 +2,7 @@
 
 if (isset($_POST["submit"])) {
     
+    #Define parameters posted from form as variables with corresponding super globals
     $FullName = $_POST["FullName"];
     $UserName = $_POST["UserName"];
     $HomeAddress =$_POST["HomeAddress"];

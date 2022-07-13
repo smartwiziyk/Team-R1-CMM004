@@ -3,17 +3,26 @@ include_once 'page-header.php';
 ?>
 <div class="container">
         <section class="col-md-12">
-            <h2>Sign Up</h2>
-            <div>
+            
+            <div class="signupform">
+            <h2>Sign Up/Register</h2>
+            <br><br>
             <form action="includes/user-signup.incl.php" method="post">
-                <input type="text" name="FullName" placeholder="Full Name (Surname first)...">
-                <input type="text" name="UserName" placeholder="Choose a username...">
-                <input type="text" name="HomeAddress" placeholder="Your Address...">
-                <input type="text" name="Phone" placeholder="Mobile Number...">
-                <input type="email" name="Email" placeholder="Email...">
-                <input type="password" name="Passwd" placeholder="Choose a Password...">
-                <input type="password" name="PasswdRepeat" placeholder="Repeat Password...">
-                <button type="submit" name="submit">Sign Up</button>
+                <label>Full Name:</label><br>
+                <input type="text" name="FullName" placeholder="(Surname first)..."><br><br>
+                <label>Choose a Username:</label><br>
+                <input type="text" name="UserName"><br><br>
+                <label>Home Address:</label><br>
+                <input type="text" name="HomeAddress"><br><br>
+                <label>Mobile number:</label><br>
+                <input type="text" name="Phone" placeholder="Mobile Number..."><br><br>
+                <label>E-mail Address:</label><br>
+                <input type="email" name="Email" placeholder="Enter a valid Email..."><br><br>
+                <label>Choose a password:</label><br>
+                <input type="password" name="Passwd"><br><br>
+                <label>Confirm your Password:</label><br>
+                <input type="password" name="PasswdRepeat" placeholder="Repeat Password..."><br><br><br>
+                <button type="submit" name="submit">Sign Up</button><br><br><br><br>
             </form>
             </div>
         </section>

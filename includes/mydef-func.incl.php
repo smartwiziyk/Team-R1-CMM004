@@ -138,7 +138,7 @@ function loginUser($connection, $UserName, $Passwd) {
     session_start();
     $_SESSION["userid"] = $uidExists["usersId"];
     $_SESSION["userdata"] = $uidExists["usersFullName"];
-    header("location: ../index.php?successful");
+    header("location: ../home.php?successful");
     exit(); 
   }
 }

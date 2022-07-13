@@ -3,12 +3,15 @@ include_once 'page-header.php';
 ?>
 <div class="container">
         <section class="col-md-12">
-            <h2>Log In as User</h2>
             <div>
+            <h2>Log In as User</h2>
+            <br><br>
             <form action="includes/user-login.incl.php" method="post">
-                <input type="text" name="UserName" placeholder="Enter your Username or Email...">
-                <input type="password" name="Passwd" placeholder="Password...">
-                <button type="submit" name="submit">Log In</button>
+                <label>Username or Email:</label><br>
+                <input type="text" name="UserName"><br><br>
+                <label>Password:</label><br>
+                <input type="password" name="Passwd"><br><br>
+                <button type="submit" name="submit">Log In</button><br><br><br>
             </form>
             </div>
         </section>
