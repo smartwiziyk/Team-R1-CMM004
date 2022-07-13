@@ -10,31 +10,31 @@ if (isset($_POST["submit"])) {
     $Passwd = $_POST["Passwd"];
     $PasswdRepeat = $_POST["PasswdRepeat"];
 
-    require_once 'dbh.inc.php';
-    require_once 'functions.inc.php';
+    require_once 'databasecon.incl.php';
+    require_once 'mydef-func.incl.php';
 
     if (emptyInputSignup($FullName, $UserName, $HomeAddress, $Phone, $Email, $Passwd, $PasswdRepeat) !== false) {
-        header("location: ../signup.php?error=emptyinput");
+        header("location: ../user-signup.php?error=emptyinput");
         exit();
     }
     if (invalidUid($UserName) !== false) {
-        header("location: ../signup.php?error=invaliduid");
+        header("location: ../user-signup.php?error=invaliduid");
         exit();
     }
     if (invalidEmail($Email) !== false) {
-        header("location: ../signup.php?error=invalidemail");
+        header("location: ../user-signup.php?error=invalidemail");
         exit();
     }
     if (PasswdMatch($Passwd, $PasswdRepeat) !== false) {
-        header("location: ../signup.php?error=passwordsdonotmatch");
+        header("location: ../user-signup.php?error=passwordsdonotmatch");
         exit();
     }
-    if (uidExists($conn, $UserName, $Email) !== false) {
-        header("location: ../signup.php?error=usernamealreadyexists");
+    if (uidExists($connection, $UserName, $Email) !== false) {
+        header("location: ../user-signup.php?error=usernamealreadyexists");
         exit();
     }
 
-    createUser($conn, $FullName, $UserName, $HomeAddress, $Phone, $Email, $Passwd);
+    createUser($connection, $FullName, $UserName, $HomeAddress, $Phone, $Email, $Passwd);
 
     echo "You have successfully signed up!";
     exit();

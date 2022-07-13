@@ -1,11 +1,11 @@
 <?php
-include_once 'header.php';
+include_once 'page-header.php';
 ?>
 <div class="container">
         <section class="col-md-12">
             <h2>Sign Up</h2>
             <div>
-            <form action="includes/signup.inc.php" method="post">
+            <form action="includes/user-signup.incl.php" method="post">
                 <input type="text" name="FullName" placeholder="Full Name (Surname first)...">
                 <input type="text" name="UserName" placeholder="Choose a username...">
                 <input type="text" name="HomeAddress" placeholder="Your Address...">
@@ -48,5 +48,5 @@ include_once 'header.php';
         </section>
 </div>
 <?php
-    include_once 'footer.php';
+    include_once 'page-footer.php';
 ?>

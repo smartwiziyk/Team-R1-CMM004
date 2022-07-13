@@ -1,13 +1,13 @@
 <?php
-include_once 'header.php';         
+include_once 'page-header.php';         
 ?>
 
 <body>
     <!--Start of Container-->
     <div class="container">
     <?php
-                    if (isset($_SESSION["useruid"])){
-                        echo "<p>We welcome you " . $_SESSION["useruid"] . " to our gardening services web application!</p>";
+                    if (isset($_SESSION["userdata"])){
+                        echo "<p>We welcome you " . $_SESSION["userdata"] . " to our gardening services web application!</p>";
                     }
                     ?>
         <h1 style="color:black">View our Catalogue of Gardening Services - Book us now!!!</h1> 
@@ -167,5 +167,5 @@ include_once 'header.php';
     <!--End of Container-->
 </body>
             <?php
-include_once 'footer.php';
+include_once 'page-footer.php';
 ?>

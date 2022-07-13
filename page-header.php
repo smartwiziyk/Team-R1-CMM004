@@ -8,7 +8,7 @@ session_start ();
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>GR1 - Gardening Services booking</title>
-    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="Style/mystyle.css">
     <link rel="stylesheet" href="Material/css/bootstrap.css">
     <link rel="stylesheet" href="Material/css/bootstrap.min.css">
     <link rel="stylesheet" href="Material/css/mdb.css">
@@ -45,13 +45,13 @@ session_start ();
                     <a href="#">Our vision</a>
                     <a href="#">Our mission</a>
                     <?php
-                    if (isset($_SESSION["useruid"])){
+                    if (isset($_SESSION["userdata"])){
                         echo "<a href='Booking.php'> Call for Booking</a>";
-                        echo "<a href='includes/logout.inc.php'>Log Out</a>";
+                        echo "<a href='includes/user-logout.incl.php'>Log Out</a>";
                     }
                     else {
-                        echo "<a href='login.php'>Log in</a>";
-                        echo "<a href='signup.php'>Sign up</a>";
+                        echo "<a href='user-login.php'>Log in</a>";
+                        echo "<a href='user-signup.php'>Sign up</a>";
                     }
                     ?>
                 </div>

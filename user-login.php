@@ -1,11 +1,11 @@
 <?php
-include_once 'header.php';
+include_once 'page-header.php';
 ?>
 <div class="container">
         <section class="col-md-12">
             <h2>Log In as User</h2>
             <div>
-            <form action="includes/login.inc.php" method="post">
+            <form action="includes/user-login.incl.php" method="post">
                 <input type="text" name="UserName" placeholder="Enter your Username or Email...">
                 <input type="password" name="Passwd" placeholder="Password...">
                 <button type="submit" name="submit">Log In</button>
@@ -26,5 +26,5 @@ include_once 'header.php';
         
 </div>   
 <?php
-    include_once 'footer.php';
+    include_once 'page-footer.php';
 ?>
