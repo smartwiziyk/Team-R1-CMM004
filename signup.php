@@ -6,8 +6,8 @@ include_once 'header.php';
             <h2>Sign Up</h2>
             <div>
             <form action="includes/signup.inc.php" method="post">
-                <input type="text" name="FirstName" placeholder="First Name...">
-                <input type="text" name="LastName" placeholder="Last Name...">
+                <input type="text" name="FullName" placeholder="Full Name (Surname first)...">
+                <input type="text" name="UserName" placeholder="Choose a username...">
                 <input type="text" name="HomeAddress" placeholder="Your Address...">
                 <input type="text" name="Phone" placeholder="Mobile Number...">
                 <input type="email" name="Email" placeholder="Email...">
@@ -18,11 +18,15 @@ include_once 'header.php';
             </div>
         </section>
             <?php
+
         if(isset($_GET["error"])) {
             if ($_GET["error"] == "emptyinput") {
                 echo"<p>Please fill in all fields!</p>";
             }
 
+            else if ($_GET["error"] == "invaliduid") {
+                echo"<p>Create a valid Username!</p>";
+            }
             else if ($_GET["error"] == "invalidemail") {
                 echo"<p>Enter a valid email address!</p>";
             }
@@ -32,7 +36,9 @@ include_once 'header.php';
             else if ($_GET["error"] == "failedstmt") {
                 echo"<p>Oops! Sorry, process failed. Try again please!</p>";
             }
-
+            else if ($_GET["error"] == "usernamealreadyexists") {
+                echo"<p>Please choose another username. Your choice exists in our system!</p>";
+            }
             else if ($_GET["error"] == "none") {
                 echo"
                 <div><p class='alert alert-success' role='alert'>You have successfully signed up. WELCOME!</p></div>";

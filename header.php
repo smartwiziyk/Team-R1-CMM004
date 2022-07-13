@@ -1,3 +1,7 @@
+<?php
+session_start ();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,8 +44,16 @@
                     <a href="#">Gardening tips</a>
                     <a href="#">Our vision</a>
                     <a href="#">Our mission</a>
-                    <a href="login.php">Log in</a>
-                    <a href="signup.php">Sign up</a>
+                    <?php
+                    if (isset($_SESSION["useruid"])){
+                        echo "<a href='Booking.php'> Call for Booking</a>";
+                        echo "<a href='includes/logout.inc.php'>Log Out</a>";
+                    }
+                    else {
+                        echo "<a href='login.php'>Log in</a>";
+                        echo "<a href='signup.php'>Sign up</a>";
+                    }
+                    ?>
                 </div>
         </header>
     </div>

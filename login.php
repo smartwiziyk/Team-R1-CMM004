@@ -6,7 +6,7 @@ include_once 'header.php';
             <h2>Log In as User</h2>
             <div>
             <form action="includes/login.inc.php" method="post">
-                <input type="email" name="Email" placeholder="Enter your Email...">
+                <input type="text" name="UserName" placeholder="Enter your Username or Email...">
                 <input type="password" name="Passwd" placeholder="Password...">
                 <button type="submit" name="submit">Log In</button>
             </form>

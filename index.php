@@ -5,6 +5,11 @@ include_once 'header.php';
 <body>
     <!--Start of Container-->
     <div class="container">
+    <?php
+                    if (isset($_SESSION["useruid"])){
+                        echo "<p>We welcome you " . $_SESSION["useruid"] . " to our gardening services web application!</p>";
+                    }
+                    ?>
         <h1 style="color:black">View our Catalogue of Gardening Services - Book us now!!!</h1> 
         <main class="col-md-12">
             <div id="experimentContainer" class="row">

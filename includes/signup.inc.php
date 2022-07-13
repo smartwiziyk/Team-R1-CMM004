@@ -2,8 +2,8 @@
 
 if (isset($_POST["submit"])) {
     
-    $FirstName = $_POST["FirstName"];
-    $LastName = $_POST["LastName"];
+    $FullName = $_POST["FullName"];
+    $UserName = $_POST["UserName"];
     $HomeAddress =$_POST["HomeAddress"];
     $Phone = $_POST["Phone"];
     $Email = $_POST["Email"];
@@ -13,11 +13,14 @@ if (isset($_POST["submit"])) {
     require_once 'dbh.inc.php';
     require_once 'functions.inc.php';
 
-    if (emptyInputSignup($FirstName, $LastName, $HomeAddress, $Phone, $Email, $Passwd, $PasswdRepeat) !== false) {
+    if (emptyInputSignup($FullName, $UserName, $HomeAddress, $Phone, $Email, $Passwd, $PasswdRepeat) !== false) {
         header("location: ../signup.php?error=emptyinput");
         exit();
     }
-
+    if (invalidUid($UserName) !== false) {
+        header("location: ../signup.php?error=invaliduid");
+        exit();
+    }
     if (invalidEmail($Email) !== false) {
         header("location: ../signup.php?error=invalidemail");
         exit();
@@ -26,14 +29,13 @@ if (isset($_POST["submit"])) {
         header("location: ../signup.php?error=passwordsdonotmatch");
         exit();
     }
+    if (uidExists($conn, $UserName, $Email) !== false) {
+        header("location: ../signup.php?error=usernamealreadyexists");
+        exit();
+    }
 
-
-    createUser($conn, $FirstName, $LastName, $HomeAddress, $Phone, $Email, $Passwd);
+    createUser($conn, $FullName, $UserName, $HomeAddress, $Phone, $Email, $Passwd);
 
     echo "You have successfully signed up!";
-}   
-else {
-    header("location: ../signup.php");
     exit();
 }
-    
