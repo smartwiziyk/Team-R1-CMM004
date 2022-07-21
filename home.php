@@ -7,7 +7,7 @@ include_once 'page-header.php';
     <div class="container">
     <?php
                     if (isset($_SESSION["userdata"])){
-                        echo "<p>We welcome you " . $_SESSION["userdata"] . " to our gardening services web application!</p>";
+                        echo "<p> We welcome you  " . $_SESSION["userdata"] . "  to our gardening services web application!</p>";
                     }
                     ?>
         <h1 style="color:darkgreen">View our Catalogue of Gardening Services - Book us now!!!</h1> 
@@ -21,8 +21,8 @@ include_once 'page-header.php';
                     
                         </div>
                         <div class="panel-body">
-                            <p style="color:black";>Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
-                                ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!</p> 
+                            <p style="color:black">Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
+                                ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!<br><h4 style="color:brown">Call us for booking on - 07359886643</h4></p> 
                         </div> 
                     </div>
 
@@ -36,7 +36,7 @@ include_once 'page-header.php';
                             <p>Big or small we provide an excellent hedge
                             trimming service. Our professional gardener can create beautifully shaped
                             hedges which will add a lot of fashionable and uniquely styled natural green
-                            fences all around your garden.</p> 
+                            fences all around your garden.<br> <h4 style="color:brown">Call us for booking on - 07359886643</h4></p> 
                         </div> 
                     </div>
 
@@ -48,7 +48,7 @@ include_once 'page-header.php';
                         </div>
                         <div class="panel-body">
                             <p>Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
-                                ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!</p> 
+                                ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!<br> <h4 style="color:brown">Call us for booking on - 07359886643</h4></p> 
                         </div> 
                     </div>
                 </article>
@@ -62,7 +62,7 @@ include_once 'page-header.php';
                         <div class="panel-body">
                             <p>We improve and maintain lawns using the highest quality
                             of technology and deliver exceptional services in a warm and friendly manner.
-                            We provide a healthy outdoor space everyone can be proud of.</p> 
+                            We provide a healthy outdoor space everyone can be proud of. <br> <h4 style="color:brown">Call us for booking on - 07359886643</h4></p> 
                         </div> 
                     </div>
 
@@ -76,7 +76,7 @@ include_once 'page-header.php';
                             <p>These includes weed control, prevention, removal and
                             maintenance. As one of the leading weed control specialists, we offer a
                             comprehensive range of commercial weed control services, including aquatic,
-                            grass, moss and algae, and Japanese knotweed removal.</p> 
+                            grass, moss and algae, and Japanese knotweed removal.<br> <h4 style="color:brown">Call us for booking on - 07359886643</h4></p> 
                         </div> 
                     </div>
 
@@ -91,7 +91,7 @@ include_once 'page-header.php';
                             seeding projects have left us with a variety of tools, tricks, and skills. We have a
                             diverse array of equipment for handling any kind of seeding or planting
                             projects, including seed collection. Don't be afraid to challenge us with your
-                            ideas.</p> 
+                            ideas.<br> <h4 style="color:brown">Call us for booking on - 07359886643</h4></p> 
                         </div> 
                     </div>
                 </article>
@@ -104,7 +104,7 @@ include_once 'page-header.php';
                         </div>
                         <div class="panel-body">
                             <p>Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
-                                ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!</p> 
+                                ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!<br> <h4 style="color:brown">Call us for booking on - 07359886643</h4></p> 
                         </div> 
                     </div>
 
@@ -116,7 +116,7 @@ include_once 'page-header.php';
                         </div>
                         <div class="panel-body">
                             <p>Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
-                                ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!</p> 
+                                ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!<br> <h4 style="color:brown">Call us for booking on - 07359886643</h4></p> 
                         </div> 
                     </div>
 
@@ -128,7 +128,7 @@ include_once 'page-header.php';
                         </div>
                         <div class="panel-body">
                             <p>Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
-                                ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!</p> 
+                                ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!<br> <h4 style="color:brown">Call us for booking on - 07359886643</h4></p> 
                         </div> 
                     </div>
                 </article>
@@ -141,7 +141,7 @@ include_once 'page-header.php';
                         </div>
                         <div class="panel-body">
                             <p>Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
-                                ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!</p> 
+                                ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!<br> <h4 style="color:brown">Call us for booking on - 07359886643</h4></p> 
                         </div> 
                     </div>
 
@@ -153,7 +153,7 @@ include_once 'page-header.php';
                         </div>
                         <div class="panel-body">
                             <p>Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
-                                ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!</p> 
+                                ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!<br> <h4 style="color:brown">Call us for booking on - 07359886643</h4></p> 
                         </div> 
                     </div>
 
@@ -165,7 +165,7 @@ include_once 'page-header.php';
                         </div>
                         <div class="panel-body">
                             <p>Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
-                                ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!</p> 
+                                ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!<br> <h4 style="color:brown">Call us for booking on - 07359886643</h4></p> 
                         </div> 
                     </div>
                 </article>

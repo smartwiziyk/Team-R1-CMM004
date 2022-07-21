@@ -5,84 +5,82 @@ include_once 'page-header.php';
 <body>
     <!--Start of Container-->
     <div class="container">
-        <h1 style="color:darkgreen">View our Catalogue of Gardening Services - Book us now!!!</h1> 
+        <h1 style="color:darkgreen">Welcome to GR1 Garderning Services Scotland!!!</h1> 
         <main class="col-md-12">
-            <div id="experimentContainer" class="row">
-                <article class="col-md-3">
+            <div id="frontContainer" class="row">
+                <article class="col-md-6">
+                    <div class="panel">
+                            <img src="assets/images/Gardener-image.jpg" alt="Garderner-Image" id="frontpageimage"> 
+                    </div>
+
                     <div class="panel">
                         <div class="panel-heading bg-success">
-                            <h3 class="panel-title">Garden Clearance</h3>
-                            <img src="assets/images/Garden clearance.jpe" alt="Placeholder Image" id="experimentImage">
+                            <h3 class="panel-title">Who we are...</h3>
                     
                         </div>
                         <div class="panel-body">
-                            <p style="color:black";>Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
+                            <p>Here at GR1 gardening Services we are committed to providing quality gardening Services to homes, 
+                                offices, schools, recreational centers etc. within Scotland. We have in this business for over 
+                                two (2) decades and our customers are proud of our services. Contact us and make bookings once 
+                                you register and login to our application. We hope to meet new customers and satisfy their gardening needs.
+                                Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
                                 ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!</p> 
                         </div> 
                     </div>
 
                     <div class="panel">
                         <div class="panel-heading bg-success">
-                            <h3 class="panel-title">Hedge Trimming and Pruning</h3>
+                            <h3 class="panel-title">Our Passion for Service</h3>
                     
                         </div>
                         <div class="panel-body">
-                            <p>Big or small we provide an excellent hedge
-                            trimming service. Our professional gardener can create beautifully shaped
-                            hedges which will add a lot of fashionable and uniquely styled natural green
-                            fences all around your garden.</p> 
-                        </div> 
-                    </div>
-
-                    <div class="panel">
-                        <div class="panel-heading bg-success">
-                            <h3 class="panel-title">Soil fertilization</h3>
-                    
-                        </div>
-                        <div class="panel-body">
-                            <p>Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
+                            <p>We are passionate about the health and general being of residents within Scotland. 
+                                We want to give every customer that luxury they so much desire.
+                                Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
                                 ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!</p> 
                         </div> 
                     </div>
                 </article>
-                <article class="col-md-3">
+                <article class="col-md-6">
                     <div class="panel panel-primary">
                         <div class="panel-heading bg-success">
-                            <h3 class="panel-title">Lawn Mowing</h3>
-                            <img src="assets/images/lawn mowing.jpe" alt="Placeholder Image" id="experimentImage">
+                            <h3 class="panel-title">Our commitment to a greener environment</h3>
                     
                         </div>
                         <div class="panel-body">
-                            <p>We improve and maintain lawns using the highest quality
-                            of technology and deliver exceptional services in a warm and friendly manner.
-                            We provide a healthy outdoor space everyone can be proud of.</p> 
+                            <p>The greener the environment, the more supply of fresh oxygen we have in the atmosphere. 
+                                That is the reason why we are advocates of a green environment. Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
+                                ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!
+                                Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
+                                ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!
+                                Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
+                                ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!
+                                Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
+                                ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!
+                                Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
+                                ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!
+                                Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
+                                ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!
+                                Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
+                                ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!
+                                Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
+                                ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!
+                            </p> 
                         </div> 
                     </div>
 
                     <div class="panel">
                         <div class="panel-heading bg-success">
-                            <h3 class="panel-title">Removal of Weeds and Weed prevention</h3>
+                            <h3 class="panel-title">More Gardening Tips</h3>
                     
                         </div>
                         <div class="panel-body">
-                            <p>These includes weed control, prevention, removal and
-                            maintenance. As one of the leading weed control specialists, we offer a
-                            comprehensive range of commercial weed control services, including aquatic,
-                            grass, moss and algae, and Japanese knotweed removal.</p> 
-                        </div> 
-                    </div>
-
-                    <div class="panel">
-                        <div class="panel-heading bg-success">
-                            <h3 class="panel-title">Planting and seeding new trees and plants</h3>
-                    
-                        </div>
-                        <div class="panel-body">
-                            <p>We have completed many successful planting and
-                            seeding projects have left us with a variety of tools, tricks, and skills. We have a
-                            diverse array of equipment for handling any kind of seeding or planting
-                            projects, including seed collection. Don't be afraid to challenge us with your
-                            ideas.</p> 
+                            <p>Here we provide lots of gardening tips and professional advice. 
+                                Our team of experts are always available to help when you call.
+                                Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
+                                ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!
+                                Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
+                                ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!</p> 
                         </div> 
                     </div>
                 </article>

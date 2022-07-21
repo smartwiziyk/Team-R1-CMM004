@@ -27,6 +27,7 @@ session_start ();
     <link rel="stylesheet" href="Material/js/ripple.js">
     <link rel="stylesheet" href="Material/js/ripple.min.js">
     <link rel="stylesheet" href="Style/fonts.css">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
 
 </head>
 <body> 
@@ -39,11 +40,11 @@ session_start ();
             </div>
         
                 <div class="navbar">
-                    <a href="#">Our values</a>
-                    <a href="#">About us</a>
-                    <a href="#">Gardening tips</a>
-                    <a href="#">Our vision</a>
-                    <a href="#">Our mission</a>
+                    <a href="#" class="navlink">Our values</a>
+                    <a href="#" class="navlink">About us</a>
+                    <a href="#" class="navlink">Gardening tips</a>
+                    <a href="#" class="navlink">Our vision</a>
+                    <a href="#" class="navlink">Our mission</a>
                     <?php
                     if (isset($_SESSION["userdata"])){
                         echo "<a href='Booking.php'> Call for Booking</a>";
