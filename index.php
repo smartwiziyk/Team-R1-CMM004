@@ -66,7 +66,13 @@ include_once 'page-header.php';
                                 addressed while providing a warm, professional service. Building and maintaining patios, fencing, decks, water features, and paving walls,
                                 Cutting the grass, weeding, pruning, and trimming the hedges are all offered as part of a dedicated
                                 garden maintenance service. We strive with our clients to ensure that all of their needs are
-                                addressed while providing a warm, professional service.</p> 
+                                addressed while providing a warm, professional service. Our hand-picked assortment of gardening tools and
+                                equipment gives you cutting-edge, high-quality goods. From trowels and spades to powered leaf
+                                blowers and hedge cutters, greenhouses and raised beds to hose reels and water butts, and much
+                                more, you can find it all here. Our hand-picked assortment of gardening tools and
+                                equipment gives you cutting-edge, high-quality goods. From trowels and spades to powered leaf
+                                blowers and hedge cutters, greenhouses and raised beds to hose reels and water butts, and much
+                                more, you can find it all here</p> 
                         </div> 
                     </div>
 
