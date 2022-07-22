@@ -23,8 +23,11 @@ include_once 'page-header.php';
                                 offices, schools, recreational centers etc. within Scotland. We have in this business for over 
                                 two (2) decades and our customers are proud of our services. Contact us and make bookings once 
                                 you register and login to our application. We hope to meet new customers and satisfy their gardening needs.
-                                Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
-                                ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!</p> 
+                                We can relieve your stress by managing your outside space and
+                                keeping it looking beautiful all year long. We offer maintenance services like; Clearance and
+                                removal of leaves, Caring and maintaining flowerbeds and shrubs, weed killing,
+                                Jet washing/deep cleaning and maintenance of paving stones, driveways,
+                                walkways and decking. </p> 
                         </div> 
                     </div>
 
@@ -36,8 +39,10 @@ include_once 'page-header.php';
                         <div class="panel-body">
                             <p>We are passionate about the health and general being of residents within Scotland. 
                                 We want to give every customer that luxury they so much desire.
-                                Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
-                                ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!</p> 
+                                Building and maintaining patios, fencing, decks, water features, and paving walls,
+                                Cutting the grass, weeding, pruning, and trimming the hedges are all offered as part of a dedicated
+                                garden maintenance service. We strive with our clients to ensure that all of their needs are
+                                addressed while providing a warm, professional service.</p> 
                         </div> 
                     </div>
                 </article>
@@ -49,23 +54,19 @@ include_once 'page-header.php';
                         </div>
                         <div class="panel-body">
                             <p>The greener the environment, the more supply of fresh oxygen we have in the atmosphere. 
-                                That is the reason why we are advocates of a green environment. Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
-                                ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!
-                                Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
-                                ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!
-                                Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
-                                ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!
-                                Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
-                                ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!
-                                Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
-                                ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!
-                                Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
-                                ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!
-                                Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
-                                ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!
-                                Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
-                                ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!
-                            </p> 
+                                That is the reason why we are advocates of a green environment. Building and maintaining patios, fencing, decks, water features, and paving walls,
+                                Cutting the grass, weeding, pruning, and trimming the hedges are all offered as part of a dedicated
+                                garden maintenance service. We strive with our clients to ensure that all of their needs are
+                                addressed while providing a warm, professional service.Building and maintaining patios, fencing, decks, water features, and paving walls,
+                                Cutting the grass, weeding, pruning, and trimming the hedges are all offered as part of a dedicated
+                                garden maintenance service. We strive with our clients to ensure that all of their needs are
+                                addressed while providing a warm, professional service. Building and maintaining patios, fencing, decks, water features, and paving walls,
+                                Cutting the grass, weeding, pruning, and trimming the hedges are all offered as part of a dedicated
+                                garden maintenance service. We strive with our clients to ensure that all of their needs are
+                                addressed while providing a warm, professional service. Building and maintaining patios, fencing, decks, water features, and paving walls,
+                                Cutting the grass, weeding, pruning, and trimming the hedges are all offered as part of a dedicated
+                                garden maintenance service. We strive with our clients to ensure that all of their needs are
+                                addressed while providing a warm, professional service.</p> 
                         </div> 
                     </div>
 
@@ -77,10 +78,10 @@ include_once 'page-header.php';
                         <div class="panel-body">
                             <p>Here we provide lots of gardening tips and professional advice. 
                                 Our team of experts are always available to help when you call.
-                                Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
-                                ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!
-                                Sunt clabularees prensionem ferox, bi-color lunaes. Ubi est fortis armarium? Peregrinatione sapienter
-                                ducuntad dexter equiso.Lotus pulchritudines ducunt ad abactor.Homos trabem in germanus ostravia!</p> 
+                                Building and maintaining patios, fencing, decks, water features, and paving walls,
+                                Cutting the grass, weeding, pruning, and trimming the hedges are all offered as part of a dedicated
+                                garden maintenance service. We strive with our clients to ensure that all of their needs are
+                                addressed while providing a warm, professional service.</p> 
                         </div> 
                     </div>
                 </article>
