@@ -103,7 +103,7 @@ function invalidUid($UserName) {
     mysqli_stmt_bind_param($stmt, "ssssss", $FullName, $UserName, $HomeAddress, $Phone, $Email, $hashedPasswd);
     mysqli_stmt_execute($stmt);
     mysqli_stmt_close($stmt);
-    header("location: ../user-signup.php?error=none");
+    header("location: ../successful-signup.php?error=none");
     exit();
 }
 
@@ -141,4 +141,7 @@ function loginUser($connection, $UserName, $Passwd) {
     header("location: ../home.php?successful");
     exit(); 
   }
+
+
+
 }

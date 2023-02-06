@@ -9,6 +9,8 @@ session_start ();
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>GR1 - Gardening Services booking</title>
     <link rel="stylesheet" href="Style/mystyle.css">
+    <link rel="stylesheet" href="Style/login.css">
+    <link rel="stylesheet" href="Style/JavaScript.js">
     <link rel="stylesheet" href="Material/css/bootstrap.css">
     <link rel="stylesheet" href="Material/css/bootstrap.min.css">
     <link rel="stylesheet" href="Material/css/mdb.css">

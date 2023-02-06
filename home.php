@@ -22,9 +22,9 @@ include_once 'page-header.php';
                         </div>
                         <div class="panel-body">
                             <p style="color:black">For whatever garden waste disposal or garden clean up tasks you want, we have
-uniformed workers available at your convenience. To make room for you to once again enjoy your
-yard, we can assist you clean away any clutter. our garden clearance and trash removal services are
-less expensive than skip rentals, and you won't have to worry about finding room.<br><h4 style="color:brown">Call us for booking on - 07359886643</h4></p> 
+                                uniformed workers available at your convenience. To make room for you to once again enjoy your
+                                yard, we can assist you clean away any clutter. our garden clearance and trash removal services are
+                                less expensive than skip rentals, and you won't have to worry about finding room.<br><h4 style="color:brown">Call us for booking on - 07359886643</h4></p> 
                         </div> 
                     </div>
 
@@ -50,8 +50,8 @@ less expensive than skip rentals, and you won't have to worry about finding room
                         </div>
                         <div class="panel-body">
                             <p>Focusing on soil fertility, our goal is to assist Farmers and Growers in identifying any
-soil or crop issues through thorough soil fertility audits and then to offer guidance on how to address
-any issues. <br> <h4 style="color:brown">Call us for booking on - 07359886643</h4></p> 
+                                soil or crop issues through thorough soil fertility audits and then to offer guidance on how to address
+                                any issues. <br> <h4 style="color:brown">Call us for booking on - 07359886643</h4></p> 
                         </div> 
                     </div>
                 </article>
@@ -107,10 +107,10 @@ any issues. <br> <h4 style="color:brown">Call us for booking on - 07359886643</h
                         </div>
                         <div class="panel-body">
                             <p>No matter how tiny your garden or vegetable plot is, you'll
-need to keep pests and illnesses under control to ensure the health of your plants. We provide
-remedies for ants, grubs, slugs, flies, wasps, greenhouse bugs, fungus, mildew, and other pests and
-diseases. We also include rodent management in this area, which includes a variety of methods for
-keeping mice and rats under control in your house or garden.<br> <h4 style="color:brown">Call us for booking on - 07359886643</h4></p> 
+                                need to keep pests and illnesses under control to ensure the health of your plants. We provide
+                                remedies for ants, grubs, slugs, flies, wasps, greenhouse bugs, fungus, mildew, and other pests and
+                                diseases. We also include rodent management in this area, which includes a variety of methods for
+                                keeping mice and rats under control in your house or garden.<br> <h4 style="color:brown">Call us for booking on - 07359886643</h4></p> 
                         </div> 
                     </div>
 
@@ -122,10 +122,10 @@ keeping mice and rats under control in your house or garden.<br> <h4 style="colo
                         </div>
                         <div class="panel-body">
                             <p>We can relieve your stress by managing your outside space and
-keeping it looking beautiful all year long. We offer maintenance services like; Clearance and
-removal of leaves, Caring and maintaining flowerbeds and shrubs, weed killing,
-Jet washing/deep cleaning and maintenance of paving stones, driveways,
-walkways and decking.<br> <h4 style="color:brown">Call us for booking on - 07359886643</h4></p> 
+                                keeping it looking beautiful all year long. We offer maintenance services like; Clearance and
+                                removal of leaves, Caring and maintaining flowerbeds and shrubs, weed killing,
+                                Jet washing/deep cleaning and maintenance of paving stones, driveways,
+                                walkways and decking.<br> <h4 style="color:brown">Call us for booking on - 07359886643</h4></p> 
                         </div> 
                     </div>
 
@@ -151,9 +151,9 @@ walkways and decking.<br> <h4 style="color:brown">Call us for booking on - 07359
                         </div>
                         <div class="panel-body">
                             <p>Building and maintaining patios, fencing, decks, water features, and paving walls,
-Cutting the grass, weeding, pruning, and trimming the hedges are all offered as part of a dedicated
-garden maintenance service. We strive with our clients to ensure that all of their needs are
-addressed while providing a warm, professional service. <br> <h4 style="color:brown">Call us for booking on - 07359886643</h4></p> 
+                                Cutting the grass, weeding, pruning, and trimming the hedges are all offered as part of a dedicated
+                                garden maintenance service. We strive with our clients to ensure that all of their needs are
+                                addressed while providing a warm, professional service. <br> <h4 style="color:brown">Call us for booking on - 07359886643</h4></p> 
                         </div> 
                     </div>
 
@@ -165,9 +165,9 @@ addressed while providing a warm, professional service. <br> <h4 style="color:br
                         </div>
                         <div class="panel-body">
                             <p> Our hand-picked assortment of gardening tools and
-equipment gives you cutting-edge, high-quality goods. From trowels and spades to powered leaf
-blowers and hedge cutters, greenhouses and raised beds to hose reels and water butts, and much
-more, you can find it all here<br> <h4 style="color:brown">Call us for booking on - 07359886643</h4></p> 
+                                equipment gives you cutting-edge, high-quality goods. From trowels and spades to powered leaf
+                                blowers and hedge cutters, greenhouses and raised beds to hose reels and water butts, and much
+                                more, you can find it all here<br> <h4 style="color:brown">Call us for booking on - 07359886643</h4></p> 
                         </div> 
                     </div>
 
