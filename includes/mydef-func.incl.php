@@ -120,6 +120,7 @@ function emptyInputLogin($UserName, $Passwd) {
     return $result;
 }
 
+
 function loginUser($connection, $UserName, $Passwd) {
   $uidExists = uidExists($connection, $UserName, $UserName);
 
