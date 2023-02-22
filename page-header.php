@@ -7,7 +7,7 @@ session_start ();
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Tutors - Teams Scheduler</title>
+    <title>GR1 - Gardening Services booking</title>
     <link rel="stylesheet" href="Style/mystyle.css">
     <link rel="stylesheet" href="Style/loginpg.css">
     <link rel="stylesheet" href="Style/JavaScript.js">
