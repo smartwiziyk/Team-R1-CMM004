@@ -7,7 +7,7 @@ session_start ();
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>GR1 - Gardening Services booking</title>
+    <title>Tutor - Teams Scheduler</title>
     <link rel="stylesheet" href="Style/mystyle.css">
     <link rel="stylesheet" href="Style/login.css">
     <link rel="stylesheet" href="Style/JavaScript.js">
@@ -36,13 +36,13 @@ session_start ();
     <div class="container">   
         <header style="background-color:#9c5300b4" class="col-md-12">
             <div class="topical">
-                <h1 class="main">GR1 Gardening Services</h1>
+                <h1 class="main">Tutor - Teams Scheduler</h1>
         
-                <h6>Bringing you the perfect touch of nature</h6>
+                <h6>Team meeting Scheduler</h6>
             </div>
         
                 <div class="navbar">
-                    <a href="#" class="navlink">Our values</a>
+                    <a href="#" class="navlink">Home</a>
                     <a href="#" class="navlink">About us</a>
                     <a href="#" class="navlink">Gardening tips</a>
                     <a href="#" class="navlink">Our vision</a>

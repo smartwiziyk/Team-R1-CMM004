@@ -5,7 +5,7 @@
                     <section class="col-md-4">
                         <h3><a href="aboutus.php">visit Us</a></h3>
                         <address>
-                            <strong>Gr1 Gardens team</strong><br>
+                            <strong>Tutor - Team Scheduler</strong><br>
                             Robert Gordon Avenue,<br>
                             Garthdee Rd,<br>
                             Aberdeen,<br>
