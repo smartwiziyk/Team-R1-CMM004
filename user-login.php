@@ -14,7 +14,7 @@ include_once 'page-header.php';
         }
 
     ?>
-        <h2>Log In as User</h2>
+        <h2>User Log In</h2>
         <br>
         <label>Username or Email:</label><br>
         <input type="text" name="UserName"><br><br>

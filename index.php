@@ -5,7 +5,7 @@ include_once 'page-header.php';
 <body>
     <!--Start of Container-->
     <div class="container">
-        <h1 style="color:darkgreen">Welcome to GR1 Garderning Services Scotland!!!</h1> 
+        <h1 style="color:darkgreen">Tutor - Teams Scheduler</h1> 
         <main class="col-md-12">
             <div id="frontContainer" class="row">
                 <article class="col-md-6">
