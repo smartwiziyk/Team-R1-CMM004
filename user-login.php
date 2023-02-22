@@ -20,6 +20,13 @@ include_once 'page-header.php';
         <input type="text" name="UserName"><br><br>
         <label>Password:</label><br>
         <input type="password" name="Passwd"><br><br>
+        <label for="user-type">User type:</label>
+			<select id="user-type" name="user-type">
+				<option value="admin">Admin</option>
+				<option value="user">Tutor</option>
+                <option value="user">Team Representative</option>
+			</select><br><br>
+
         <button type="submit" name="submit">Log In</button><br><br><br>
     </form>
 

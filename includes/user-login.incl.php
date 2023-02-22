@@ -5,6 +5,7 @@ if (isset($_POST["submit"])) {
 
     $UserName = $_POST["UserName"];
     $Passwd = $_POST["Passwd"];
+    $userType = $_POST["user-type"];
 
     require_once 'databasecon.incl.php';
     require_once 'mydef-func.incl.php';

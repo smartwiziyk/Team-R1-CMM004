@@ -1,0 +1,301 @@
+@import "fonts.css";
+
+
+
+/*Home Page -*/
+#experimentImage{
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    height: 1000px;
+    padding: 20px 0px 0px 0px;
+}
+
+#navigation{
+    background-color: rgb(114, 10, 109);
+}
+
+/*Header Information */
+header {
+    background-color: rgb(114, 10, 109);
+    padding: 30px 0px 0px 20px;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: auto;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+nav>ul{
+    float:right;
+    display:flex;
+    list-style-type:none;
+    margin:0;
+    padding:0px 5px 0px 0px;
+    overflow:hidden;
+    list-style: none;
+    margin: 0;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight:900;
+    width: 60%;
+}
+nav>ul>li{
+    float:right;
+    padding-top: 1px;
+    margin-right: 5px;
+    width: 100%;
+}
+nav>ul>li a{
+    display:block;
+    color: #ffffff;
+    text-align:center;
+    text-decoration:none;
+    background: rgb(30, 41, 136);
+    margin: 0 0;
+    border: none;
+}
+
+nav>ul>li a{
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+nav>ul>li a:hover{
+  background-color: rgb(17, 13, 78);
+  text-decoration:underline;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(30, 41, 136);
+  width: 870px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration:none;
+  font-weight:700;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  font-weight:900;
+  text-decoration:none;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(17, 13, 78);
+  text-decoration:underline;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(30, 41, 136);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: rgb(255, 204, 170);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(17, 13, 78);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#search_box{
+  float:right;
+  padding:10px 40px 1px 10px;
+}
+
+#queries_term_query{
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+}
+
+#header .logo {
+  position:static;
+  margin: 10px;
+  top:30px;
+  float:left;
+  padding:1px 1px 1px 1px;
+ }
+ 
+ #header li a:hover {
+   background: #5c7fc5;
+   color: #fff;
+   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
+
+}
+
+#scotlogo{
+  width:1220px;
+  height:100%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -65px;
+  padding:0px 0px 0px 0px;
+}
+
+#authentication{
+  float:right;
+  height: 100px;
+  width: 500px;
+  margin: 0px;
+  padding:10px 0px;
+}
+
+h1{
+    font-weight: 1500;
+    font-family: 'Righteous', cursive;
+    padding: 0px 20px 0px 20px;
+    font-size: 1000%;
+    color: antiquewhite;
+}
+
+header h2{
+    margin-top: 0;
+}
+
+#navbarSupportedContent{
+    background-color: rgb(114, 10, 109);
+    
+}
+
+#navbarSupportedContent ul li a{
+    color: rgb(255, 255, 255);
+    padding: 0px 20px 0px 40px;
+}
+
+h6{
+    padding: 0px 30px 10px 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size:smaller;
+    color: antiquewhite;
+}
+/*End of Header*/ 
+
+/*Start of Footer*/
+
+#heading{
+    background-color: rgb(114, 10, 109);
+    color: antiquewhite;
+    padding: 10px 0px 10px 20px;
+    font-size:10px;
+    text-align: left;
+}
+
+
+#news{
+    background-color: rgb(255, 219, 208);
+    padding: 0px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
+}
+
+#paragraph{
+    padding: 10px 20px 10px 20px;
+    color: rgb(31, 3, 31);
+    font-weight: bolder;
+}
+
+footer section h3, p{
+    margin-top: 10px;
+    color: antiquewhite;
+    padding: 0px 20px 10px 20px;
+}
+
+footer{
+    background-color: rgb(114, 10, 109);
+}
+
+
+footer{
+  margin-right: auto;
+  margin-left: auto;
+  z-index: auto;
+-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+#footnote{
+  padding:30px 20px 0px 20px;
+}
+
+.logo {
+    margin-bottom: 120px;
+  }
+  .logo {
+   display:inline-block;
+    margin-bottom:5px;
+    padding:100px 20px 20px 20px;
+  }
+
+
+.moreinfo {
+  overflow: hidden;
+  background-color: rgb(30, 41, 136);
+  z-index: auto;
+-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.moreinfo a {
+  float:left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration:none;
+  font-weight:700;
+}
+
+.moreinfo a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(17, 13, 78);
+  text-decoration:underline;
+}
+
+
+#copyright{
+  display:block;
+  color: #000000;
+  text-align:center;
+  padding:10px 5px 5px 5px;
+  margin: 0px;
+}
+/*End of Footer*/ 
+
+/*End of Home Page - Experiment Styles*/ 
+
+
+
+

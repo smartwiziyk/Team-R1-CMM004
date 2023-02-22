@@ -1,11 +1,10 @@
 <?php
 
 #Empty input functions for signup
-
-function emptyInputSignup($FullName, $UserName, $HomeAddress, $Phone, $Email, $Passwd, $PasswdRepeat) {
+function emptyInputSignup($FullName, $HomeAddress, $Phone, $Email, $Passwd, $PasswdRepeat, $userType, $StudID) {
 
   $result; #state variable name for true or false condition...
-    if (empty($FullName) || empty($UserName) ||empty($HomeAddress) ||empty($Phone) ||empty($Email) || empty($Passwd) || empty($PasswdRepeat)) {
+    if (empty($FullName) ||empty($HomeAddress) ||empty($Phone) ||empty($Email) || empty($Passwd) || empty($PasswdRepeat) || empty($userType) || empty($StudID) ) {
     $result = true;
     }
     else {
@@ -14,11 +13,11 @@ function emptyInputSignup($FullName, $UserName, $HomeAddress, $Phone, $Email, $P
     return $result;
 }
 
-#check if invalid username
+#check if invalid Student ID
 
-function invalidUid($UserName) {
+function invalidUid($StudID) {
   $result; #state variable name for true or false condition...
-    if (!preg_match("/^[a-zA-Z0-9]*$/", $UserName)) {
+    if (!preg_match("/^[0-9]*$/", $StudID)) {
     $result = true;
     }
     else {
@@ -52,8 +51,8 @@ function invalidUid($UserName) {
       }
       return $result;
   }
-
-  function uidExists($connection, $UserName, $Email) {
+#Check if Student ID/email already exists
+  function uidExists($connection, $StudID, $Email) {
     $sql = "SELECT * FROM users WHERE usersUid = ? OR usersEmail = ?;";
     $stmt = mysqli_stmt_init($connection);
     if (!mysqli_stmt_prepare($stmt, $sql)) {
@@ -61,7 +60,7 @@ function invalidUid($UserName) {
         exit();
     }
 
-    mysqli_stmt_bind_param($stmt, "ss", $UserName, $Email);
+    mysqli_stmt_bind_param($stmt, "ss", $StudID, $Email);
     mysqli_stmt_execute($stmt);
 
     $resultData = mysqli_stmt_get_result($stmt);
@@ -77,15 +76,15 @@ function invalidUid($UserName) {
     mysqli_stmt_close($stmt);
   }
 
-  function createUser($connection, $FullName, $UserName, $HomeAddress, $Phone, $Email, $Passwd) {
-    $sql = "INSERT INTO users (usersFullName, usersUid, usersHomeAddress, usersPhone, usersEmail, usersPasswd) VALUES (?, ?, ?, ?, ?, ?);";
+  function createUser($connection, $FullName, $HomeAddress, $Phone, $Email, $Passwd, $userType, $StudID) {
+    $sql = "INSERT INTO users (usersFullName, usersHomeAddress, usersPhone, usersEmail, usersPasswd, usersType, usersUid) VALUES (?, ?, ?, ?, ?, ?, ?);";
     $stmt = mysqli_stmt_init($connection);
 
     if (!mysqli_stmt_prepare($stmt, $sql)) {
         header("location: ../user-signup.php?error=failedstmt");
         exit();
     }
-    $sql = "SELECT * FROM users WHERE usersUid = '$UserName' AND usersFullName='$FullName'";
+    $sql = "SELECT * FROM users WHERE usersUid = '$StudID' AND usersFullName='$FullName'";
     $result = mysqli_query($connection, $sql);
 
     if (mysqli_num_rows($result) > 0) {
@@ -100,18 +99,20 @@ function invalidUid($UserName) {
 
     $hashedPasswd = password_hash($Passwd, PASSWORD_DEFAULT);
 
-    mysqli_stmt_bind_param($stmt, "ssssss", $FullName, $UserName, $HomeAddress, $Phone, $Email, $hashedPasswd);
+    mysqli_stmt_bind_param($stmt, "sssssss", $FullName, $HomeAddress, $Phone, $Email, $hashedPasswd, $userType, $StudID);
     mysqli_stmt_execute($stmt);
     mysqli_stmt_close($stmt);
     header("location: ../successful-signup.php?error=none");
     exit();
 }
 
+
+#LOGIN
 #Empty input functions for login
 
-function emptyInputLogin($UserName, $Passwd) {
+function emptyInputLogin($StudID, $Passwd) {
   $result; #state variable name for true or false condition...
-    if (empty($UserName) || empty($Passwd)) {
+    if (empty($StudID) || empty($Passwd)) {
     $result = true;
     }
     else {
@@ -121,8 +122,8 @@ function emptyInputLogin($UserName, $Passwd) {
 }
 
 
-function loginUser($connection, $UserName, $Passwd) {
-  $uidExists = uidExists($connection, $UserName, $UserName);
+function loginUser($connection, $StudID, $Passwd) {
+  $uidExists = uidExists($connection, $StudID, $StudID);
 
   if ($uidExists === false) {
     header("location: ../user-login.php?error=Loginincorrect!");
@@ -139,10 +140,100 @@ function loginUser($connection, $UserName, $Passwd) {
     session_start();
     $_SESSION["userid"] = $uidExists["usersId"];
     $_SESSION["userdata"] = $uidExists["usersFullName"];
-    header("location: ../home.php?successful");
+    header("location: ../pg-admin.php?successful");
     exit(); 
   }
 
 
 
 }
+
+
+
+
+
+
+if ($userType == "admin") {
+function loginAdmin($connection, $Email, $Passwd) {
+  $uidExists = uidExists($connection, "", $Email);
+
+  if ($uidExists === false) {
+    header("location: ../user-login.php?error=Loginincorrect!");
+    exit();
+  }
+  $hashedPasswd = $uidExists["usersPasswd"];
+  $checkPwd = password_verify($Passwd, $hashedPasswd);
+
+  if ($checkPwd === false) {
+    header("location: ../user-login.php?error=Loginincorrect!");
+    exit();  
+  }
+  else if ($checkPwd === true) {
+    session_start();
+    $_SESSION["userid"] = $uidExists["usersId"];
+    $_SESSION["userdata"] = $uidExists["usersFullName"];
+    $_SESSION['user-type'] = "admin"; #added admin
+    header("location: ../pg-admin.php?successful");
+    exit(); 
+  }
+
+
+
+}
+
+ } else if ($userType == "tutor") {
+  function loginTutor($connection, $Email, $Passwd) {
+    $uidExists = uidExists($connection, "", $Email);
+  
+    if ($uidExists === false) {
+      header("location: ../user-login.php?error=Loginincorrect!");
+      exit();
+    }
+    $hashedPasswd = $uidExists["usersPasswd"];
+    $checkPwd = password_verify($Passwd, $hashedPasswd);
+  
+    if ($checkPwd === false) {
+      header("location: ../user-login.php?error=Loginincorrect!");
+      exit();  
+    }
+    else if ($checkPwd === true) {
+      session_start();
+      $_SESSION["userid"] = $uidExists["usersId"];
+      $_SESSION["userdata"] = $uidExists["usersFullName"];
+      $_SESSION['user-type'] = "tutor"; #tutor admin
+      header("location: ../pg-tutors.php?successful");
+      exit(); 
+    }
+  
+  
+  
+  }
+
+ } else {function loginStudent($connection, $StudID, $Passwd) {
+  $uidExists = uidExists($connection, $StudID, $StudID);
+
+  if ($uidExists === false) {
+    header("location: ../user-login.php?error=Loginincorrect!");
+    exit();
+  }
+  $hashedPasswd = $uidExists["usersPasswd"];
+  $checkPwd = password_verify($Passwd, $hashedPasswd);
+
+  if ($checkPwd === false) {
+    header("location: ../user-login.php?error=Loginincorrect!");
+    exit();  
+  }
+  else if ($checkPwd === true) {
+    session_start();
+    $_SESSION["userid"] = $uidExists["usersId"];
+    $_SESSION["userdata"] = $uidExists["usersFullName"];
+    header("location: ../pg-teamreps.php?successful");
+    exit(); 
+  }
+
+
+
+}
+
+
+ }

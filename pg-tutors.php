@@ -7,7 +7,7 @@ include_once 'page-header.php';
     <div class="container">
     <?php
                     if (isset($_SESSION["userdata"])){
-                        echo "<p> We welcome you  " . $_SESSION["userdata"] . "  to our gardening services web application!</p>";
+                        echo "<p id='welcome'> We welcome you  " . $_SESSION["userdata"] . "  (Course Tutor) to our Teams - Tutor web application!</p>";
                     }
                     ?>
         <h1 style="color:darkgreen">View our Catalogue of Gardening Services - Book us now!!!</h1> 

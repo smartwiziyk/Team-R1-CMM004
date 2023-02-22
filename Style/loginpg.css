@@ -1,6 +1,7 @@
 #formContainer {
   display: flex;
   justify-content:center;
+  padding: 2em;
 }
 
 form {
@@ -39,10 +40,11 @@ input[type="password"] {
 }
 
 button {
-  padding: 2%;
+  padding:5%;
   background-color: rgba(4, 54, 38, 0.596);
   color: white;
   border: 1px solid rgba(2, 49, 34, 0.664);
   border-radius: 5px;
   cursor:pointer;
+  margin-top: 30%;
 }

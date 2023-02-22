@@ -8,7 +8,7 @@ session_start ();
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tutor - Teams Scheduler</title>
-    <link rel="stylesheet" href="Style/mystyle.css">
+    <link rel="stylesheet" href="Style/mystyle1.css">
     <link rel="stylesheet" href="Style/loginpg.css">
     <link rel="stylesheet" href="Style/JavaScript.js">
     <link rel="stylesheet" href="Material/css/bootstrap.css">
@@ -33,34 +33,53 @@ session_start ();
 
 </head>
 <body> 
-    <div class="container">   
-        <header style="background-color:#9c5300b4" class="col-md-12">
-            <div class="topical">
-                <h1 class="main">Tutor - Teams Scheduler</h1>
-        
-                <h6>Team meeting Scheduler</h6>
-            </div>
-        
+       
+        <header>
+                <h1>Tutors - Teams Scheduler</h1>
+
                 <div class="navbar">
-                    <a href="#" class="navlink">Home</a>
-                    <a href="#" class="navlink">About us</a>
-                    <a href="#" class="navlink">Gardening tips</a>
-                    <a href="#" class="navlink">Our vision</a>
-                    <a href="#" class="navlink">Our mission</a>
-                    <?php
-                    if (isset($_SESSION["userdata"])){
-                        echo "<a href='Booking.php'> Call for Booking</a>";
-                        echo "<a href='includes/user-logout.incl.php'>Log Out</a>";
-                    }
-                    else {
-                        echo "<a href='user-login.php'>Log in</a>";
-                        echo "<a href='user-signup.php'>Sign up</a>";
-                    }
-                    ?>
-                </div>
+                    <nav>
+                        <ul>
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Our vision</a></li>
+                            <li><a href="#">Our mission</a></li>
+                            <?php
+                            if (isset($_SESSION["userdata"])){
+                                echo "<li><a href='home.php'>View our Catalogue</a></li>";
+                            }
+                            ?>
+                            <li class="nav-item"><a class="nav-link" href="#">Latest tips</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">FAQs</a></li>
+                            <?php
+                            if (isset($_SESSION["userdata"])){
+                                echo "
+                                <div class = 'navbar2'>
+                                    <nav>
+                                        <ul>
+                                            <li><a href='Booking.php'> Call for Booking</a></li>
+                                            <li><a href='includes/user-logout.incl.php'>Log Out</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>";
+                            }
+                            else {
+                                echo "
+                                    <div class = 'navbar2'>
+                                        <nav>
+                                            <ul>
+                                                <li><a href='user-login.php'>Log in</a></li>
+                                                <li><a href='user-signup.php'>Sign up</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                    ";
+                            }
+                        ?>
+                        </ul>               
+                    </nav>
+                </div> 
         </header>
-    </div>
-    <br>
  
 
         

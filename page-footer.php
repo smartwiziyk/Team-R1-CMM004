@@ -1,7 +1,7 @@
 
-    <div class="container">  
-            <footer style="background-color:#9c5300b4" class="col-md-12">
-                <div id="navbarSupportedContent" class="row">
+        
+            <footer class="container" class="col-md-12">
+                <div class="row">
                     <section class="col-md-4">
                         <h3><a href="aboutus.php">visit Us</a></h3>
                         <address>
@@ -23,6 +23,6 @@
                     </section>
                 </div>
             </footer>
-    </div>
+       
 </body>
 </html>
