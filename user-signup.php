@@ -52,7 +52,8 @@ include_once 'page-header.php';
                 <button type="submit" name="submit">Sign Up</button><br><br><br><br>
             </form>
 </div>
-
+            <!-- May perform same for Tutor(staffID) AS A PRIMARY KEY FOR TUTORS FOR BETTER SECURITY-->
+            
 <script>
 		// Show/hide the student ID field based on the user type selection
 		document.getElementById("user-type").addEventListener("change", function() {
